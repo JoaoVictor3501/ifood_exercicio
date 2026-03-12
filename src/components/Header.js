@@ -1,4 +1,5 @@
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
+import Ionicons from '@expo/vector-icons/Ionicons';
 
 export default function Header(){
     return (
@@ -6,7 +7,9 @@ export default function Header(){
             <View style={styles.topRow}>
                 
                 <Text style={styles.delivery}>Entregar Em:</Text>
-                <Text style={styles.notificacion}>Notificação☺ </Text>
+                <TouchableOpacity style={styles.notificacion}>
+                                        <Ionicons name="notifications" size={24} color="black" />
+                </TouchableOpacity>
 
             </View>
 
@@ -24,7 +27,8 @@ const styles = StyleSheet.create({
         padding:20,
     },
     notificacion:{
-        fontSize:20
+        fontSize:20,
+        
     },
     adress:{
         marginTop:5,
