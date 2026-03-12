@@ -1,3 +1,34 @@
+🍔 App Delivery - React Native
+
+Aplicativo de delivery desenvolvido com React Native como parte do projeto da disciplina.
+
+📱 Funcionalidades
+
+-Header com localização
+
+-Barra de busca
+
+-Categorias com ícones
+
+-Banner de promoção
+
+-Lista de restaurantes com imagens
+
+-Seção de cupons
+
+-Menu inferior de navegação
+
+🛠 Tecnologias utilizadas
+
+-React Native
+
+-Expo
+
+-JavaScript
+
+-Expo Vector Icons
+
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
